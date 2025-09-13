@@ -122,7 +122,8 @@ Project : Sistem Informasi Nilai Siswa Kelas B SMAN 2 BERAU
 
 
 **2. KODE PROGRAM**\
-Kode Program : [Mini Project 1.py](https://github.com/user-attachments/files/22309756/Mini.Project.1.py)
+Kode Program : [Mini Project 1.py](https://github.com/user-attachments/files/22311402/Mini.Project.1.py)
+
 
 
 <img width="590" height="377" alt="Screenshot (169)" src="https://github.com/user-attachments/assets/1554e394-61e1-43a6-98c2-683fd3bcdb0c" />\
@@ -183,7 +184,7 @@ Pesan seperti diatas akan muncul jika pengguna memilih selain "1" atau "2" saat 
 
 <img width="588" height="439" alt="Screenshot (145)" src="https://github.com/user-attachments/assets/10392583-fd02-462f-af3f-e242fbb47063" />\
 **Penjelasan**\
-Jika pengguna memilih menu 2 (Menambah Data Siswa), maka program akan menampilkan perintah untuk menginput Nama siswa, Nomor absen, Nilai Matematika, Nilai Bahasa Indonesia dan Nilai Bahasa Inggris.\
+Jika pengguna memilih menu nomor 2 (Menambah Data Siswa), maka program akan menampilkan perintah untuk menginput Nama siswa, Nomor absen, Nilai Matematika, Nilai Bahasa Indonesia dan Nilai Bahasa Inggris.\
 Semua input ini akan disimpan ke dalam variabel sementara: Tambah_Nama, Tambah_Absen, Tambah_Nilai_MTK, Tambah_Nilai_BINDO, Tambah_Nilai_BING.\
 Pada bagian _append()_ Program akan menambahkan data baru ke dalam masing-masing list data dan akan disimpan di akhir list tanpa menghapus data lama.\
 Setelah data berhasil ditambahkan, program menampilkan pesan konfirmasi dan seluruh isi list terbaru.\
@@ -192,10 +193,23 @@ Setelah data berhasil ditambahkan, program menampilkan pesan konfirmasi dan selu
 **OUTPUT MENU 2 (MENAMBAH DATA)**
 
 <img width="514" height="311" alt="Screenshot (150)" src="https://github.com/user-attachments/assets/f7ecd8c9-4ac9-455e-a346-2154d07d3b74" />\
-**Penjelasan**
+**Penjelasan**\
+Pada _elif Menu == 3 :_
+Jika pengguna memilih menu nomor 3 (Mengubah Nilai Siswa), maka program akan menampilkan daftar mata pelajaran.\
+Pengguna diminta memilih mata pelajaran mana yang nilainya ingin diubah.\
+Jika pilih 1, maka variabel Nilai_Terpilih menunjuk ke list Nilai Matematika.\
+Jika pilih 2, maka Nilai_Terpilih menunjuk ke list Nilai Bahasa Indonesia.\
+Jika pilih 3, maka Nilai_Terpilih menunjuk ke list Nilai Bahasa Inggris.\
+Jika pilih di luar angka 1–3, program menampilkan "Mapel tidak valid!" dan berhenti.
 
-<img width="489" height="378" alt="Screenshot (147)" src="https://github.com/user-attachments/assets/3ed10808-58dc-41f0-bd78-f8ec61cd3ce5" />\
-**Penjelasan**
+<img width="497" height="389" alt="Screenshot (172)" src="https://github.com/user-attachments/assets/7952b141-43eb-407f-924c-59ccdae17850" />\
+**Penjelasan**\
+Pada _No_Absen = int(input("\nMasukkan Nomor Absen Siswa: "))_
+Pengguna diminta memasukkan nomor absen siswa yang nilainya akan diubah.\
+Kemudian, program akan membandingkan nilai input _No_Absen_ dengan isi list _No_Absen_ menggunakan beberapa kondisi _if-elif-else_.\
+Contohnya : Jika memasukkan nomor absen 1, program akan mengubah nilai di Nilai_Terpilih[0].\
+Setelah diganti, program menampilkan "Nilai Berhasil Diperbarui".\
+Jika nilai input _No_Absen_ dengan isi list _No_Absen_ tidak cocok, program akan menampilkan "Absen Tidak Ditemukan".
 
 <img width="455" height="381" alt="Screenshot (154)" src="https://github.com/user-attachments/assets/afe90ede-74f0-48a4-b469-6948399b668b" />\
 **OUTPUT MENU 3 (MENGUBAH NILAI)**
