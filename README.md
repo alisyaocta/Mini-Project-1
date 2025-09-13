@@ -182,7 +182,11 @@ Pesan seperti diatas akan muncul jika pengguna memilih selain "1" atau "2" saat 
 
 
 <img width="588" height="439" alt="Screenshot (145)" src="https://github.com/user-attachments/assets/10392583-fd02-462f-af3f-e242fbb47063" />\
-**Penjelasan**
+**Penjelasan**\
+Jika pengguna memilih menu 2 (Menambah Data Siswa), maka program akan menampilkan perintah untuk menginput Nama siswa, Nomor absen, Nilai Matematika, Nilai Bahasa Indonesia dan Nilai Bahasa Inggris.\
+Semua input ini akan disimpan ke dalam variabel sementara: Tambah_Nama, Tambah_Absen, Tambah_Nilai_MTK, Tambah_Nilai_BINDO, Tambah_Nilai_BING.\
+Pada bagian _append()_ Program akan menambahkan data baru ke dalam masing-masing list data dan akan disimpan di akhir list tanpa menghapus data lama.\
+Setelah data berhasil ditambahkan, program menampilkan pesan konfirmasi dan seluruh isi list terbaru.\
 
 <img width="680" height="415" alt="Screenshot (153)" src="https://github.com/user-attachments/assets/2f663da8-8a03-422a-a8d2-d5be2d38bb05" />\
 **OUTPUT MENU 2 (MENAMBAH DATA)**
@@ -198,6 +202,11 @@ Pesan seperti diatas akan muncul jika pengguna memilih selain "1" atau "2" saat 
 
 <img width="586" height="344" alt="Screenshot (148)" src="https://github.com/user-attachments/assets/93ae2aae-f6f5-489b-8dc1-aef64fa70ca9" />\
 **Penjelasan**
+Pada _elif Menu == 4 :_\
+Jika pengguna memilih menu nomor 4 (Menghapus Data), maka program akan menampilkan sub-menu pilihan data yang ingin dihapus.\
+Pengguna dapat memilih : Menghapus nama siswa dari List_Siswa, Menghapus nomor absen siswa dari No_Absen, dan Menghapus nilai siswa dari list nilai.\
+Jika pengguna memilih sub-menu nomor 1, Program meminta pengguna memasukkan indeks _List_Siswa_. pop(indeks) akan menghapus data pada posisi tertentu di dalam list _List_Siswa_. Data yang terhapus disimpan sementara dalam variabel _Pilih_Menu4_ lalu akan ditampilkan kembali sebagai konfirmasi.
+Jika pengguna memilih sub-menu nomor 2, Program meminta pengguna memasukkan indeks _No_Absen_. pop(indeks) akan menghapus data pada posisi tertentu di dalam list _No_Absen_. Data yang terhapus disimpan sementara dalam variabel _Pilih_Menu4_ lalu akan ditampilkan kembali sebagai konfirmasi.
 
 <img width="524" height="355" alt="Screenshot (155)" src="https://github.com/user-attachments/assets/8095653f-9ea5-4dbe-b650-4a765b54742a" />\
 **OUTPUT MENU 4 (MENGHAPUS DATA) KONDISI 1**
@@ -207,7 +216,15 @@ Pesan seperti diatas akan muncul jika pengguna memilih selain "1" atau "2" saat 
 
 
 <img width="671" height="564" alt="Screenshot (162)" src="https://github.com/user-attachments/assets/229ed56c-4819-430a-853c-fabbf0ca0aec" />\
-**Penjelasan**
+**Penjelasan**\
+Jika pengguna memilih sub-menu nomor 3, Program akan menampilkan daftar mata pelajaran yang nilainya ingin dihapus.\
+Kemudian, pengguna diminta memilih mata pelajaran mana yang nilainya ingin dihapus.\
+Jika pengguna memilih mapel nomor 1, Program akan meminta pengguna meemasukkan indeks (posisi siswa) di list Nilai_MTK. pop(indeks) akan menghapus nilai Matematika pada indeks tersebut. Kemudian, program akan menampilkan list terbaru Nilai_MTK dan nilai yang dihapus.\
+Jika pengguna memilih mapel nomor 2, Program akan meminta pengguna meemasukkan indeks (posisi siswa) di list Nilai_BINDO. pop(indeks) akan menghapus nilai Matematika pada indeks tersebut. Kemudian, program akan menampilkan list terbaru Nilai_BINDO dan nilai yang dihapus.\
+Jika pengguna memilih mapel nomor 3, Program akan meminta pengguna meemasukkan indeks (posisi siswa) di list Nilai_BING. pop(indeks) akan menghapus nilai Matematika pada indeks tersebut. Kemudian, program akan menampilkan list terbaru Nilai_BING dan nilai yang dihapus.\
+Jika pengguna memasukkan angka selain 1–3, program akan menampilkan "Mata Pelajaran Tidak Valid" dan berhenti.
+
+Jika dari awal pengguna memilih menu yang tidak ada (selain menampilkan nilai, menambah siswa baru, mengubah nilai siswa, atau menghapus data siswa), program akan menampilkan "Menu Pilihan Tidak Valid" dan berhenti.
 
 <img width="478" height="442" alt="Screenshot (158)" src="https://github.com/user-attachments/assets/6ddb88f6-d4f2-4e19-bdc1-0752105fa845" />\
 **OUTPUT MENU 4 (MENGHAPUS DATA) KONDISI 3**
