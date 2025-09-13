@@ -126,19 +126,56 @@ Kode Program : [Mini Project 1.py](https://github.com/user-attachments/files/223
 
 
 <img width="590" height="377" alt="Screenshot (169)" src="https://github.com/user-attachments/assets/1554e394-61e1-43a6-98c2-683fd3bcdb0c" />\
-**Penjelasan**
+**Penjelasan**\
+_List_Mahasiswa_ berisikan daftar nama siswa/i kelas B.\
+_No_Absen_ berisikan daftar absen siswa/i kelas B secara urut.\
+_Nilai_MTK_ brisikan daftar nilai Matematika siswa/i kelas B secara urut.\
+_Nilai_BINDO_ brisikan daftar nilai Bahasa Indonesia siswa/i kelas B secara urut.\
+_Nilai_BING_ brisikan daftar nilai Bahasa Inggris siswa/i kelas B secara urut.\
+_List_Mapel_ berisikan daftar mata pelajaran yang dinilai.\
+Bagian _Tampilan Awal_ berisi Program yang akan menampilkan judul Sistem Informasi Nilai Siswa Kleas B SMAN 2 BERAU dan menu pilihan yang bisa dipilih oleh pengguna. Menu ini nantinya akan digunakan untuk mengakses fungsi-fungsi yang mengelola data siswa dan nilai mereka, seperti menampilkan nilai, menambah siswa baru, mengubah nilai siswa, atau menghapus data siswa.
 
 <img width="640" height="438" alt="Screenshot (142)" src="https://github.com/user-attachments/assets/792a7d03-5db0-4bfd-85c5-ad81fcd9fb8c" />\
-**Penjelasan**
+**Penjelasan**\
+Pada _Menu = int(input("\nPilih Menu (Angka) : "))_\
+Program akan meminta pengguna memasukkan angka untuk memilih menu yang ingin dijalankan.\
+Pada _if Menu == 1 :_\
+Jika pengguna memilih menu 1 (Melihat Nilai Siswa), maka program akan menampilkan daftar mata pelajaran yang tersedia untuk dipilih.\
+Pada _Pilih_Mapel = int(input("\nPilih Mata Pelajaran (Angka) : "))_
+Program meminta pengguna memasukkan angka untuk memilih mata pelajaran yang ingin dilihat nilainya.\
+Berdasarkan input pengguna, program akan menentukan mata pelajaran yang dipilih dan mengambil daftar nilai yang sesuai.\
+Jika memilih 1, maka mata pelajaran adalah "Matematika" dan nilai yang diambil adalah Nilai_MTK.\
+Jika memilih 2, maka mata pelajaran adalah "Bahasa Indonesia" dan nilai yang diambil adalah Nilai_BINDO.\
+Jika memilih 3, maka mata pelajaran adalah "Bahasa Inggris" dan nilai yang diambil adalah Nilai_BING.\
+Pada _else : print("\nMata Pelajaran Tidak Valid!")_\
+Jika pengguna memasukkan angka selain 1, 2, atau 3, program akan menampilkan "Mata Pelajaran Tidak Valid!" dan menghentikan program dengan exit().
 
 <img width="1048" height="495" alt="Screenshot (143)" src="https://github.com/user-attachments/assets/50e2ff4f-e7be-4b69-a7b0-0fce12455816" />\
-**Penjelasan**
+**Penjelasan**\
+Pada _Metode = input("\nCari Nilai Berdasarkan Nama Siswa (1) atau Nomor Absen (2)? ")_\
+Program meminta pengguna memilih metode pencarian nilai siswa, apakah berdasarkan nama siswa (input "1") atau nomor absen (input "2").\
+Pada _if Metode == "1" :_ dan _Cari_Nama = input("\nMasukkan Nama Siswa (Kapital) : ")_\
+Jika pengguna memilih "1", program akan meminta pengguna memasukkan nama siswa yang ingin dicari nilainya.\
+Program akan membandingkan input nama siswa _(Cari_Nama)_ dengan setiap nama dalam list _List_Siswa_ menggunakan beberapa kondisi _if-elif-else_\
+Jika nama yang dimasukkan cocok dengan salah satu nama di list, program akan menyimpan indeks siswa tersebut ke variabel _indeks_siswa_.\
+Kemudian program menampilkan nilai siswa tersebut untuk mata pelajaran yang sudah dipilih sebelumnya _Mapel_Terpilih_, dengan mengambil nilai dari list nilai yang sesuai _Nilai_Terpilih[indeks_siswa]_.\
+Jika nama yang dimasukkan tidak cocok dengan salah satu nama di list atau salah pengetikan, program akan menampilkan "Nama Siswa Tidak Valid! Harus Menggunakan Huruf Kapital."
 
 <img width="466" height="426" alt="Screenshot (151)" src="https://github.com/user-attachments/assets/06f20932-67f0-4db2-bc52-6f3fde78b316" />\
 **OUTPUT MENU 1 (MELIHAT NILAI) METODE 1**
 
-<img width="1050" height="477" alt="Screenshot (144)" src="https://github.com/user-attachments/assets/ee204a32-30f2-4bc0-a516-27fec4918611" />\
-**Penjelasan**
+<img width="1035" height="462" alt="Screenshot (170)" src="https://github.com/user-attachments/assets/8b612a42-e137-4ee2-b491-31dea2b6e223" />\
+**Penjelasan**\
+Pada _elif Metode == "2" :_\
+Jika pengguna memilih "2", maka program akan melakukan pencarian nilai siswa berdasarkan nomor absen.\
+Paada _Cari_Absen = int(input("\nMasukkan Nomor Absen Siswa (Angka) : "))_
+Program meminta pengguna untuk memasukkan nomor absen siswa dalam bentuk angka.\
+Kemudian, program akan membandingkan nilai input _Cari_Absen_ dengan isi list _No_Absen_ menggunakan beberapa kondisi _if-elif-else_.\
+Jika nomor absen yang dimasukkan cocok dengan salah satu nomor absen di list _No_Absen_, program akan menyimpan indeks nomor absen tersebut ke variabel _indeks_absen_.\
+Kemudian program menampilkan nilai siswa tersebut untuk mata pelajaran yang sudah dipilih sebelumnya _Mapel_Terpilih_, dengan mengambil nilai dari list nilai yang sesuai _Nilai_Terpilih[indeks_absen]_.\
+Jika nomor absen yang dimasukkan tidak cocok dengan salah satu nomor absen di list atau salah pengetikan, program akan menampilkan "NNomor Absen Siswa Tidak Ditemukan."\
+Pada _else : print("\nMetode Tidak Valid!")_\
+Pesan seperti diatas akan muncul jika pengguna memilih selain "1" atau "2" saat memilih metode.
 
 <img width="469" height="420" alt="Screenshot (152)" src="https://github.com/user-attachments/assets/ce1838d3-cd12-4c07-82a7-4551bf13d7a1" />\
 **OUTPUT MENU 1 (MELIHAT NILAI) METODE 2**
