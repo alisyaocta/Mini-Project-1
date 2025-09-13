@@ -5,15 +5,123 @@ NIM : 2509116017\
 Project : Sistem Informasi Nilai Siswa Kelas B SMAN 2 BERAU
 
 **1. FLOWCHART**\
-<img width="406" height="494" alt="Screenshot (138)" src="https://github.com/user-attachments/assets/33e3b685-d03a-4393-bbb4-ee6675ec15be" />
+<img width="415" height="491" alt="Screenshot (167)" src="https://github.com/user-attachments/assets/73d4fd49-0355-45ba-9f65-755a4ad9e34b" />\
+**Penjelasan Flowchart**
+1) Flowchart dimulai dengan start
+2) Lalu menampilkan menu pilihan
+3) Lalu kita diminta untuk menginput pilihan
+4) Pilih menu 1?
+   - Jika Iya, akan menampilkan pilihan mata pelajaran
+   - Jika Tidak, Pilih menu 2?
+     - Jika Iya, lanjut ke halaman 2
+     - Jika Tidak, Pilih menu 3?
+       - Jika Iya, lanjut ke halaman 2
+       - Jika Tidak, Pilih menu 4?
+         - Jika Iya, lanjut ke halaman 3
+         - Jika Tidak, akan menampilkan "Menu Tidak Valid"
+5) Input mata pelajaran
+6) Pilih Mata pelajaran 1?
+   - Jika Iya, akan menampilkan pilihan metode pencarian
+   - Jika Tidak, Pilih Mata pelajaran 2?
+     - Jika Iya, akan menampilkan metode pencarian
+     - Jika Tidak, Pilih Mata Pelajaran 3?
+       - Jika Iya, akan menampilkan metode pencarian
+       - Jika Tidak, akan menampilkan "Mata Pelajaran Tidak Valid"
+7) Input metode pencarian
+8) Pilih Metode 1?
+   - Jika Iya, Input nama siswa
+   - Jika Tidak, pilih metode 2?
+     - Jika Iya, Input Nomor Absen siswa
+     - Jika Tidak, akan menampilkan "Metode Tidak Valid"
+9) Menampilkan nilai
+10) End
+   
 
-<img width="536" height="489" alt="Screenshot (139)" src="https://github.com/user-attachments/assets/8bdf7db6-b1d4-45f1-847b-a7db39388b0e" />
 
-<img width="459" height="490" alt="Screenshot (140)" src="https://github.com/user-attachments/assets/1a94accf-edbe-4235-a4e0-0490176d5f0a" />
+<img width="543" height="492" alt="Screenshot (165)" src="https://github.com/user-attachments/assets/1717acc0-7b34-4bd8-9ef1-18a64902ea98" />\
+**Penjelasan Flowchart**
+1. Flowchart halaman 2
+2. Pilih menu 2?
+   - Jika Iya
+3. Input Nama siswa
+4. Input Nomor Absen Siswa
+5. Input Nilai Matematika
+6. Input Nilai Bahasa Indonesia
+7. Input Nilai Bahasa Inggris
+8. Menampilkan hasil penambahahan data siswa
+9. End
 
-**2. PENJELASAN FLOWCHART**
+1. Jika Tidak memilih menu 2, Pilih menu 3?
+2. Jika Memilih Menu 3
+3. Akan menampilkan pilihan mata pelajaran
+4. Input pilihan
+5. Pilih Mata Pelajaran 1?
+   - Jika Iya, input nomor absen siswa
+6. Input nilai baru
+7. Akan menampilkan nilai Matematika yang sudah diubah
+8. End
+   - Jika Tidak memilih mata pelajaran 1, Pilih mata pelajaran 2?
+   - Jika Iya, input nomor absen siswa
+9. Input nilai baru
+10. Akan menampilkan nilai Bahasa Indonesia yang sudah diubah
+11. End
+    - Jika Tidak memilih mata pelajaran 2, Pilih mata pelajaran 3?
+    - Jika Iya, input nomor absen siswa
+12. Input nilai baru
+13. Akan menampilkan nilai Bahasa Indonesia yang sudah diubah
+14. End
+    - Jika Tidak memilih mata pelajaran 3, akan menampilkan "Mata Pelajaran Tidak Valid"
+15. End
+    
+<img width="523" height="482" alt="Screenshot (166)" src="https://github.com/user-attachments/assets/2c8e8029-366b-4da9-8d6a-0ac68c495aee" />\
+**Penjelasan Flowchart**
+1. Flowchart halaman 3
+2. Pilih menu 4?
+   - Jika Tidak, akan menampilkan "Menu Tidak Valid"
+   - End
+   - Jika Iya
+4. Akan menampilkan pilihan data siswa
+5. Input pilihan
+6. Pilih data 1?
+   - Jika Iya
+7. Input Indeks list siswa
+8. Akan menampilkan list siswa setelah dihapus
+9. Akan menampilkan nama siswa yang dihapus
+10. End
+    - Jika Tidak, Pilih data 2?
+    - Jika Iya
+11. Input Indeks list nomor absen
+12. Akan menampilkan list nomot absen setelah dihapus
+13. Akan menampilkan nomor absen yang dihapus
+14. End
+    - Jika Tidak memilih data 2, Pilih data 3?
+    - Jika Tidak, akan menampilkan "Pilihan Data Tidak Valid"
+    - End
+    - Jika Iya
+15. Menampilkan Pilihan Mata Pelajaran
+15. Input Pilihan
+16. Pilih Mata Pelajaran 1?
+    - Jika Iya
+17. Input Indeks list nilai Matematika
+18. Akan menampilkan list nilai Matematika setelah dihapus
+19. Akan menampilkan nilai Matematika yang dihapus
+20. End
+    - Jika Tidak memilih mata pelajaran 1, Pilih mata pelajaran 2?
+    - Jika Iya
+21. Input Indeks list nilai Bahasa Indonesia
+22. Akan menampilkan list nilai Bahasa Indonesia setelah dihapus
+23. Akan menampilkan nilai Bahasa indonesia yang dihapus
+24. End
+    - Jika Tidak memilih mata pelajaran 2, Pilih mata pelajaran 3?
+    - Jika Tidak, akan menampilkan "Pilihan Mata Pelajaran Tidak Valid"
+    - Jika Iya
+25. Input Indeks list nilai Bahasa Inggris
+18. Akan menampilkan list nilai Bahasa Inggris setelah dihapus
+19. Akan menampilkan nilai Bahasa Inggris yang dihapus
+20. End
 
-**3. PENJELASAN KODE PROGRAM**\
+
+**2. KODE PROGRAM**\
 Kode Program : [Mini Project 1.py](https://github.com/user-attachments/files/22309756/Mini.Project.1.py)
 
 
