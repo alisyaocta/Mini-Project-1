@@ -125,7 +125,7 @@ Project : Sistem Informasi Nilai Siswa Kelas B SMAN 2 BERAU
 Kode Program : [Mini Project 1.py](https://github.com/user-attachments/files/22309756/Mini.Project.1.py)
 
 
-<img width="579" height="414" alt="Screenshot (168)" src="https://github.com/user-attachments/assets/04c4f6e8-673b-413e-93f7-3044300485a5" />\
+<img width="590" height="377" alt="Screenshot (169)" src="https://github.com/user-attachments/assets/1554e394-61e1-43a6-98c2-683fd3bcdb0c" />\
 **Penjelasan**
 
 <img width="640" height="438" alt="Screenshot (142)" src="https://github.com/user-attachments/assets/792a7d03-5db0-4bfd-85c5-ad81fcd9fb8c" />\
