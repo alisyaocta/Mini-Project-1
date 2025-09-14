@@ -134,7 +134,9 @@ _Nilai_MTK_ brisikan daftar nilai Matematika siswa/i kelas B secara urut.\
 _Nilai_BINDO_ brisikan daftar nilai Bahasa Indonesia siswa/i kelas B secara urut.\
 _Nilai_BING_ brisikan daftar nilai Bahasa Inggris siswa/i kelas B secara urut.\
 _List_Mapel_ berisikan daftar mata pelajaran yang dinilai.\
-Bagian _Tampilan Awal_ berisi Program yang akan menampilkan judul Sistem Informasi Nilai Siswa Kleas B SMAN 2 BERAU dan menu pilihan yang bisa dipilih oleh pengguna. Menu ini nantinya akan digunakan untuk mengakses fungsi-fungsi yang mengelola data siswa dan nilai mereka, seperti menampilkan nilai, menambah siswa baru, mengubah nilai siswa, atau menghapus data siswa.
+Bagian _Tampilan Awal_ berisi Program yang akan menampilkan judul Sistem Informasi Nilai Siswa Kleas B SMAN 2 BERAU dan menu pilihan yang bisa dipilih oleh pengguna. Menu ini nantinya akan digunakan untuk mengakses fungsi-fungsi yang mengelola data siswa dan nilai mereka, seperti menampilkan nilai, menambah siswa baru, mengubah nilai siswa, atau menghapus data siswa.\
+Jika pengguna memasukkan angka selain 1, 2, 3, atau 4,  program akan menampilkan "Menu Tidak Valid!" dan menghentikan program.
+
 
 <img width="640" height="438" alt="Screenshot (142)" src="https://github.com/user-attachments/assets/792a7d03-5db0-4bfd-85c5-ad81fcd9fb8c" />\
 **Penjelasan**\
@@ -151,6 +153,10 @@ Jika memilih 3, maka mata pelajaran adalah "Bahasa Inggris" dan nilai yang diamb
 Pada _else : print("\nMata Pelajaran Tidak Valid!")_\
 Jika pengguna memasukkan angka selain 1, 2, atau 3, program akan menampilkan "Mata Pelajaran Tidak Valid!" dan menghentikan program dengan exit().
 
+<img width="454" height="346" alt="Screenshot (160)" src="https://github.com/user-attachments/assets/6f0f31b5-0e33-4c81-aa75-41906d505235" />\
+**Output Jika Tidak Memilih Mata Pelajaran 1, 2, ataupun 3**
+
+
 <img width="1048" height="495" alt="Screenshot (143)" src="https://github.com/user-attachments/assets/50e2ff4f-e7be-4b69-a7b0-0fce12455816" />\
 **Penjelasan**\
 Pada _Metode = input("\nCari Nilai Berdasarkan Nama Siswa (1) atau Nomor Absen (2)? ")_\
@@ -163,7 +169,8 @@ Kemudian program menampilkan nilai siswa tersebut untuk mata pelajaran yang suda
 Jika nama yang dimasukkan tidak cocok dengan salah satu nama di list atau salah pengetikan, program akan menampilkan "Nama Siswa Tidak Valid! Harus Menggunakan Huruf Kapital."
 
 <img width="466" height="426" alt="Screenshot (151)" src="https://github.com/user-attachments/assets/06f20932-67f0-4db2-bc52-6f3fde78b316" />\
-**OUTPUT MENU 1 (MELIHAT NILAI) METODE 1**
+**Output Menu 1 (Melihat Nilai) Menggunakan Metode 1 (Nama Siswa)**
+
 
 <img width="1035" height="462" alt="Screenshot (170)" src="https://github.com/user-attachments/assets/8b612a42-e137-4ee2-b491-31dea2b6e223" />\
 **Penjelasan**\
@@ -179,7 +186,10 @@ Pada _else : print("\nMetode Tidak Valid!")_\
 Pesan seperti diatas akan muncul jika pengguna memilih selain "1" atau "2" saat memilih metode.
 
 <img width="469" height="420" alt="Screenshot (152)" src="https://github.com/user-attachments/assets/ce1838d3-cd12-4c07-82a7-4551bf13d7a1" />\
-**OUTPUT MENU 1 (MELIHAT NILAI) METODE 2**
+**Output Menu 1 (Melihat Nilai) Menggunakan Metode 2 (Nomor Absen)**
+
+<img width="458" height="383" alt="Screenshot (177)" src="https://github.com/user-attachments/assets/07233aa5-eae9-449e-9357-6b21a196baae" />\
+**Output Jika Tidak Memilih Metode 1 atau 2**
 
 
 <img width="588" height="439" alt="Screenshot (145)" src="https://github.com/user-attachments/assets/10392583-fd02-462f-af3f-e242fbb47063" />\
@@ -190,7 +200,7 @@ Pada bagian _append()_ Program akan menambahkan data baru ke dalam masing-masing
 Setelah data berhasil ditambahkan, program menampilkan pesan konfirmasi dan seluruh isi list terbaru.\
 
 <img width="680" height="415" alt="Screenshot (153)" src="https://github.com/user-attachments/assets/2f663da8-8a03-422a-a8d2-d5be2d38bb05" />\
-**OUTPUT MENU 2 (MENAMBAH DATA)**
+**Output Menu 2 (Menambah Data)**
 
 <img width="514" height="311" alt="Screenshot (150)" src="https://github.com/user-attachments/assets/f7ecd8c9-4ac9-455e-a346-2154d07d3b74" />\
 **Penjelasan**\
@@ -202,6 +212,9 @@ Jika pilih 2, maka Nilai_Terpilih menunjuk ke list Nilai Bahasa Indonesia.\
 Jika pilih 3, maka Nilai_Terpilih menunjuk ke list Nilai Bahasa Inggris.\
 Jika pilih di luar angka 1–3, program menampilkan "Mapel tidak valid!" dan berhenti.
 
+<img width="470" height="325" alt="Screenshot (178)" src="https://github.com/user-attachments/assets/7b66d587-4f27-42b1-bb80-6d5380a02635" />\
+**Output Jika Memilih di luar angka 1, 2, ataupun 3**
+
 <img width="497" height="389" alt="Screenshot (172)" src="https://github.com/user-attachments/assets/7952b141-43eb-407f-924c-59ccdae17850" />\
 **Penjelasan**\
 Pada _No_Absen = int(input("\nMasukkan Nomor Absen Siswa: "))_
@@ -212,7 +225,7 @@ Setelah diganti, program menampilkan "Nilai Berhasil Diperbarui".\
 Jika nilai input _No_Absen_ dengan isi list _No_Absen_ tidak cocok, program akan menampilkan "Absen Tidak Ditemukan".
 
 <img width="455" height="381" alt="Screenshot (154)" src="https://github.com/user-attachments/assets/afe90ede-74f0-48a4-b469-6948399b668b" />\
-**OUTPUT MENU 3 (MENGUBAH NILAI)**
+**Output Menu 3 (Mengubah Nilai)**
 
 <img width="586" height="344" alt="Screenshot (148)" src="https://github.com/user-attachments/assets/93ae2aae-f6f5-489b-8dc1-aef64fa70ca9" />\
 **Penjelasan**
@@ -223,13 +236,13 @@ Jika pengguna memilih sub-menu nomor 1, Program meminta pengguna memasukkan inde
 Jika pengguna memilih sub-menu nomor 2, Program meminta pengguna memasukkan indeks _No_Absen_. pop(indeks) akan menghapus data pada posisi tertentu di dalam list _No_Absen_. Data yang terhapus disimpan sementara dalam variabel _Pilih_Menu4_ lalu akan ditampilkan kembali sebagai konfirmasi.
 
 <img width="524" height="355" alt="Screenshot (155)" src="https://github.com/user-attachments/assets/8095653f-9ea5-4dbe-b650-4a765b54742a" />\
-**OUTPUT MENU 4 (MENGHAPUS DATA) KONDISI 1**
+**Output Menu 4 (Menghapus Data) Kondisi 1 (Menghapus Nama)**
 
 <img width="458" height="342" alt="Screenshot (156)" src="https://github.com/user-attachments/assets/e72556f3-8592-4ea1-96d0-cd397b0119f2" />\
-**OUTPUT MENU 4 (MENGHAPUS DATA) KONDISI 2**
+**Output Menu 4 (Menghapus Data) Kondisi 2 (Menghapus Absen)**
 
 
-<img width="671" height="564" alt="Screenshot (162)" src="https://github.com/user-attachments/assets/229ed56c-4819-430a-853c-fabbf0ca0aec" />\
+<img width="675" height="622" alt="Screenshot (176)" src="https://github.com/user-attachments/assets/ae3fc08c-2153-4e16-b89a-4c7d4810a7fa" />\
 **Penjelasan**\
 Jika pengguna memilih sub-menu nomor 3, Program akan menampilkan daftar mata pelajaran yang nilainya ingin dihapus.\
 Kemudian, pengguna diminta memilih mata pelajaran mana yang nilainya ingin dihapus.\
@@ -238,7 +251,10 @@ Jika pengguna memilih mapel nomor 2, Program akan meminta pengguna meemasukkan i
 Jika pengguna memilih mapel nomor 3, Program akan meminta pengguna meemasukkan indeks (posisi siswa) di list Nilai_BING. pop(indeks) akan menghapus nilai Matematika pada indeks tersebut. Kemudian, program akan menampilkan list terbaru Nilai_BING dan nilai yang dihapus.\
 Jika pengguna memasukkan angka selain 1–3, program akan menampilkan "Mata Pelajaran Tidak Valid" dan berhenti.
 
-Jika dari awal pengguna memilih menu yang tidak ada (selain menampilkan nilai, menambah siswa baru, mengubah nilai siswa, atau menghapus data siswa), program akan menampilkan "Menu Pilihan Tidak Valid" dan berhenti.
-
 <img width="478" height="442" alt="Screenshot (158)" src="https://github.com/user-attachments/assets/6ddb88f6-d4f2-4e19-bdc1-0752105fa845" />\
-**OUTPUT MENU 4 (MENGHAPUS DATA) KONDISI 3**
+**Output Menu 4 (Menghapus Data) Kondisi 3 (Menghapus Nilai)**
+
+
+<img width="474" height="230" alt="Screenshot (159)" src="https://github.com/user-attachments/assets/da77330e-34d3-449c-b978-8798f13620b5" />\
+**Output Jika Tidak Memilih Menu 1, 2, 3, atau 4**\
+Jika dari awal pengguna memilih menu yang tidak ada (selain menampilkan nilai, menambah siswa baru, mengubah nilai siswa, atau menghapus data siswa), program akan menampilkan "Menu Pilihan Tidak Valid" dan berhenti.
