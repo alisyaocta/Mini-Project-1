@@ -5,11 +5,11 @@ NIM : 2509116017\
 Project : Sistem Informasi Nilai Siswa Kelas B SMAN 2 BERAU
 
 **1. FLOWCHART**\
-<img width="415" height="491" alt="Screenshot (167)" src="https://github.com/user-attachments/assets/73d4fd49-0355-45ba-9f65-755a4ad9e34b" />
+![Mini Project 1-Halaman-1](https://github.com/user-attachments/assets/35fbe7b5-1e8e-488e-8245-5f51f842bbe4)
 
-<img width="543" height="492" alt="Screenshot (165)" src="https://github.com/user-attachments/assets/1717acc0-7b34-4bd8-9ef1-18a64902ea98" />
+![Mini Project 1-Halaman-2](https://github.com/user-attachments/assets/2b65978b-aaf5-47f0-bbf7-07a1038b415b)
 
-<img width="523" height="482" alt="Screenshot (166)" src="https://github.com/user-attachments/assets/2c8e8029-366b-4da9-8d6a-0ac68c495aee" />\
+![Mini Project 1-Halaman-3](https://github.com/user-attachments/assets/e7b778f6-e2d8-40ad-896b-7010cd06d566)
 
 
 **2. KODE PROGRAM**\
